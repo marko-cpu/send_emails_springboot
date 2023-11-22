@@ -1,0 +1,45 @@
+spring:
+  profiles:
+    active: ${ACTIVE_PROFILE:dev}
+
+  datasource:
+    url: jdbc:postgresql://${POSTGRES_HOST}:${POSTGRES_PORT}/${POSTGRES_DB}
+    username: ${POSTGRES_USERNAME}
+    password: ${POSTGRES_PASSWORD}
+
+
+  jpa:
+    generate-ddl: true
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        jdbc:
+          time_zone: UTC
+        globally_quoted_identifiers: true
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        format_sql: true
+  mail:
+    host: ${EMAIL_HOST}
+    port: ${EMAIL_PORT}
+    username: ${EMAIL_ID}
+    password: ${EMAIL_PASSWORD}
+    defaultEncoding: UTF-8
+    properties:
+      mail:
+        mime:
+          charset: UTF
+        smtp:
+          writeTimeout: 10000
+          connectionTimeout: 10000
+          timeout: 10000
+          auth: true
+          starttls:
+            enable: true
+            require: true
+    verify:
+      host: ${VERIFY_EMAIL_HOST}
+
+server:
+  port: ${SERVER_PORT:8080}

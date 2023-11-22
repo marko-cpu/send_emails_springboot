@@ -1,0 +1,9 @@
+/home/marko/Desktop/userservice-SendEmail-SpringBoot/src/main/java/io/email/userservice/domain/User.java
+/home/marko/Desktop/userservice-SendEmail-SpringBoot/src/main/java/io/email/userservice/domain/HttpResponse.java
+/home/marko/Desktop/userservice-SendEmail-SpringBoot/src/main/java/io/email/userservice/domain/Confirmation.java
+/home/marko/Desktop/userservice-SendEmail-SpringBoot/src/main/java/io/email/userservice/service/UserService.java
+/home/marko/Desktop/userservice-SendEmail-SpringBoot/src/main/java/io/email/userservice/repository/ConfirmationRepository.java
+/home/marko/Desktop/userservice-SendEmail-SpringBoot/src/main/java/io/email/userservice/repository/UserRepository.java
+/home/marko/Desktop/userservice-SendEmail-SpringBoot/src/main/java/io/email/userservice/resource/UserResource.java
+/home/marko/Desktop/userservice-SendEmail-SpringBoot/src/main/java/io/email/userservice/Application.java
+/home/marko/Desktop/userservice-SendEmail-SpringBoot/src/main/java/io/email/userservice/service/impl/UserServiceImpl.java
