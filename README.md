@@ -15,9 +15,9 @@ The system supports sending plain text messages, embedding files directly into e
 
 ## Technologies Used
 
-- **Spring Boot:**
+- **Spring Boot**
   
-- **Postgres Database:** 
+- **Postgres** 
   
-- **Thymeleaf:**
+- **Thymeleaf**
 
